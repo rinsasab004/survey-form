@@ -1,0 +1,79 @@
+body{
+    background-image:url("../image1.jpg");
+    background-repeat:no-repeat ;
+    background-size:cover ;
+    /* overflow-y: auto; */
+}
+h1{
+    text-align: center;
+    color: white;
+}
+
+div{
+    background-color: white;
+    margin-left: 150px ;
+    height: 700px;
+    width: 1000px;
+    padding-right: 100px;
+ 
+}
+
+p{
+    padding-top: 20px;
+    text-align: center;
+    margin-left: 100px;
+    color: rgb(64, 63, 63);
+}
+
+table {
+  width: 100%;
+  border-spacing: 10px;
+  text-align: left;
+  /* margin-right: 50px; */
+
+}
+
+td {
+  vertical-align: top;
+  padding: 5px;
+}
+
+td:first-child{
+    text-align: right;
+    font-weight: 550;
+    padding-right: 15px;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+  width: 80%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  height: 60px;
+  resize: none;
+}
+
+
+button {
+  background: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 150px;
+}
+
+button:hover {
+  background: #217dbb;
+}
+
