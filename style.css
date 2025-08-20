@@ -11,10 +11,11 @@ h1{
 
 div{
     background-color: white;
-    margin-left: 150px ;
+    /* margin-left: 150px ; */
     height: 700px;
     width: 1000px;
     padding-right: 100px;
+    margin: 30px auto;
  
 }
 
